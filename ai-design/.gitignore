@@ -1,0 +1,111 @@
+# Node modules
+node_modules/
+
+# SvelteKit build outputs
+.svelte-kit/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Mac system files
+.DS_Store
+
+# Environment variables
+.env
+.env.*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Tailwind CSS
+tailwind.config.js
+tailwind.config.cjs
+
+# Vitest coverage
+coverage/
+
+# Cypress outputs
+cypress/screenshots/
+cypress/videos/
+cypress/fixtures/*.json
+cypress/reports/
+
+# Strapi uploads and temporary files
+public/uploads/
+.tmp/
+
+# VSCode settings
+.vscode/
+
+# Parcel cache
+.cache/
+
+# ESLint cache
+.eslintcache
+
+# Prettier cache
+.prettier-cache/
+
+# Svelte package
+*.svelte-package
+
+# IDE directories and settings
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional npm cache directory
+.npm/
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Mac Trash folder which might appear if you use the Mac 'trash' command
+.Trashes
+
+# Build artifacts
+dist/
+out/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Other files
+*.pid
+*.seed
+*.pid.lock
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm/
+
+# Optional REPL history
+.node_repl_history
+
+# dotenv environment variables file
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# PnP
+.pnp.*
