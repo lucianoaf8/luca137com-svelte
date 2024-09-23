@@ -1,15 +1,14 @@
 // svelte.config.js
-import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
+import adapter from '@sveltejs/adapter-auto';
 
 export default {
-  preprocess: [
-    preprocess({
-      postcss: true,
-    }),
-  ],
+  preprocess: preprocess({
+    typescript: true,
+    // Add other preprocess options if needed
+  }),
   kit: {
     adapter: adapter(),
-    // other options
+    // ... other kit options
   },
 };
